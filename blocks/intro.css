@@ -1,0 +1,10 @@
+.intro {
+  padding: 64px 148px 118px;
+}
+
+.intro__image {
+  max-width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
