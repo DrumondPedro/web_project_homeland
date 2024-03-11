@@ -32,6 +32,14 @@
   margin: 32px 0 0;
 }
 
+.header__image {
+  margin: 64px 0 0;
+  max-width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
 @media screen and (max-width: 768px) {
   .header__logo {
     margin: 32px 0 0;
