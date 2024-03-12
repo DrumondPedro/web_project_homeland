@@ -1,24 +1,20 @@
 .header {
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .header__logo {
-  margin: 34px 0 0;
+  margin: 34px auto 0;
+  display: block;
 }
 
 .header__title {
   font-family: "Inter", Arial, sans-serif;
-  font-size: 96px;
+  font-size: 6rem;
   font-weight: 900;
-  line-height: 100px;
-  letter-spacing: 0em;
+  line-height: 6.25rem;
   text-align: center;
   max-width: 793px;
-  margin: 90px 0 0;
+  margin: 90px auto 0;
 }
 
 .header__subtitle {
@@ -29,90 +25,82 @@
   letter-spacing: 0em;
   text-align: center;
   max-width: 720px;
-  margin: 32px 0 0;
-}
-
-.header__image {
-  margin: 64px 0 0;
-  max-width: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: gray;
+  margin: 32px auto 0;
 }
 
 @media screen and (max-width: 768px) {
   .header__logo {
-    margin: 32px 0 0;
-    width: 254px;
+    margin: 32px auto 0;
+    max-width: 254px;
     height: 65.89px;
   }
 
   .header__title {
     max-width: 660px;
-    margin: 96.11px 0 0;
+    margin: 96.11px auto 0;
   }
 }
 
 @media screen and (max-width: 620px) {
   .header__logo {
-    margin: 28px 0 0;
+    margin: 28px auto 0;
     height: 60px;
   }
 
   .header__title {
-    font-size: 78px;
+    font-size: 4.75rem;
     line-height: 1.1;
-    margin: 80px 0 0;
+    margin: 80px auto 0;
     max-width: 540px;
   }
 
   .header__subtitle {
-    font-size: 26px;
+    font-size: 1.5rem;
     line-height: 1.25;
     max-width: 500px;
-    margin: 16px 0 0;
+    margin: 16px auto 0;
   }
 }
 
 @media screen and (max-width: 470px) {
   .header__logo {
-    margin: 24px 0 0;
+    margin: 24px auto 0;
     height: 56px;
   }
 
   .header__title {
-    font-size: 59px;
+    font-size: 3.75rem;
     line-height: 1.1;
-    margin: 64px 0 0;
+    margin: 64px auto 0;
     max-width: 400px;
   }
 
   .header__subtitle {
-    font-size: 21px;
+    font-size: 1.25rem;
     line-height: 1.25;
     max-width: 420px;
-    margin: 21px 0 0;
+    margin: 21px auto 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__logo {
-    margin: 20.29px 0 0;
+    margin: 20.29px auto 0;
     width: 188.69px;
     height: 52.76px;
   }
 
   .header__title {
     max-width: 270px;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.1;
-    margin: 48.94px 0 0;
+    margin: 48.94px auto 0;
   }
 
   .header__subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.25;
     max-width: 288px;
-    margin: 16px 0 0;
+    margin: 16px auto 0;
   }
 }
