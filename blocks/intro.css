@@ -20,21 +20,19 @@
 .intro__quote {
   margin: 40px 0 0 148px;
   max-width: 738px;
+  font-size: 1.5rem;
+  line-height: 34px;
 }
 
 .intro__quote-text {
   margin: 0;
-  font-size: 1.5rem;
-  line-height: 34px;
-  font-weight: 400;
   text-align: left;
 }
 
 .intro__quote-author {
   margin: 10px 0 0;
-  font-size: 1.5rem;
-  line-height: 34px;
   text-align: right;
+  max-width: 732px;
 }
 
 .intro__text {
@@ -47,57 +45,122 @@
 
 @media screen and (max-width: 1127px) {
   .intro__image {
-    margin: 64px auto 0;
+    margin: 36px auto 0;
   }
 
   .intro__title {
-    margin: 0 auto;
+    margin: 88px auto 0;
   }
 
   .intro__quote {
-    margin: 40px 0 0 148px;
+    margin: 58px auto 0;
+    box-sizing: border-box;
+    max-width: 830px;
+    padding-right: 45px;
   }
 
   .intro__text {
-    margin: 32px 0 0 148px;
+    margin: 32px auto 0;
+    box-sizing: border-box;
+    max-width: 830px;
+    padding-right: 103px;
   }
 }
 
 @media screen and (max-width: 890px) {
   .intro__title {
-    margin: 0 30px 0;
+    margin: 88px 30px 0;
+  }
+  .intro__quote {
+    margin: 58px 30px 0;
+    padding-right: 20px;
+  }
+
+  .intro__text {
+    margin: 32px 30px 0;
+    padding-right: 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .intro {
-    padding: 88px 0 0;
-  }
-
   .intro__title {
-    margin: 0 0 0 24px;
+    margin: 88px 0 0 24px;
     max-width: 707px;
   }
 
   .intro__quote {
-    margin: 40px 24px 0 24px;
+    margin: 58px 24px 0;
     max-width: 720px;
+    padding-right: 0;
+  }
+
+  .intro__quote-author {
+    margin: -8px 0 0;
+  }
+
+  .intro__text {
+    margin: 32px 24px 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .intro__title {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 80px 24px 0;
+  }
+
+  .intro__quote {
+    margin: 52px 24px 0;
   }
 
   .intro__quote-author {
     margin: 0;
   }
-
-  .intro__text {
-    margin: 32px auto;
-  }
-}
-
-@media screen and (max-width: 620px) {
 }
 
 @media screen and (max-width: 470px) {
+  .intro__title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin: 72px 24px 0;
+  }
+
+  .intro__quote {
+    margin: 46px 24px 0;
+  }
+
+  .intro__quote-author {
+    margin: 10px 0 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .intro__image {
+    margin: 40px 0 0;
+  }
+
+  .intro__title {
+    margin: 64px 16px 0;
+    max-width: 288px;
+    font-size: 2rem;
+    line-height: 35px;
+  }
+
+  .intro__quote {
+    margin: 40px 16px 0;
+    max-width: 288px;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .intro__quote-author {
+    line-height: 34px;
+  }
+
+  .intro__text {
+    margin: 32px 16px 0;
+    max-width: 288px;
+  }
 }
