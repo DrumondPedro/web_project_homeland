@@ -1,0 +1,54 @@
+.invite__card {
+  background-image: url(../images/invite/invite_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 92px auto 0;
+  max-width: 1184px;
+  height: 740px;
+
+  /* -------EDITAARRRR---- */
+}
+
+.invite__content {
+  background-color: rgba(42, 44, 47, 0.3);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.invite__title {
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 4.75rem;
+  text-align: center;
+  max-width: 656px;
+  margin: 0;
+}
+
+.invite__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  max-width: 280px;
+  margin: 32px 0 0;
+}
+
+.invite__button {
+  margin: 32px 0 0;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  background-color: #0278fe;
+  border: 0;
+}
