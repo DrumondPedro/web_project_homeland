@@ -1,12 +1,11 @@
 .gallery {
   padding: 118px 48px 0;
-  /* max-width: 1184px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  box-sizing: border-box;
 }
 
 .gallery__image {
   max-width: 284px;
+  width: 100%;
 }
