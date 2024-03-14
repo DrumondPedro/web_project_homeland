@@ -9,3 +9,35 @@
   max-width: 284px;
   width: 100%;
 }
+
+@media screen and (max-width: 938px) {
+  .gallery {
+    padding: 100px 30px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery__image {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    padding: 90px 24px 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .gallery {
+    padding: 90px 20px 0;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery {
+    padding: 90px 16px 0;
+    gap: 12px;
+  }
+}
