@@ -6,19 +6,20 @@
 
 .presentation__cards {
   list-style: none;
-  padding: 92px 24px 0;
+  padding: 92px 0 0;
   margin: 0;
   max-width: 987px;
 }
 
 .presentation__card {
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr); */
+  grid-template-columns: fit-content(460px) fit-content(484px);
+  grid-template-rows: fit-content(228px) fit-content(460px) fit-content(48px);
   grid-template-areas:
     "title name"
     "image text"
-    "button text";
+    "button text"
+    ". text";
   row-gap: 48px;
   column-gap: 40px;
   margin: 80px 0 0;
@@ -32,7 +33,6 @@
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
-  max-width: 460px;
   margin: 0;
   grid-area: title;
 }
@@ -104,4 +104,185 @@
 .presentation__card-button:hover {
   background-color: #0063d2;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1127px) {
+  .presentation__cards {
+    padding: 92px 48px 0;
+  }
+}
+
+@media screen and (max-width: 1108px) {
+  .presentation__card {
+    grid-template-columns: fit-content(420px) fit-content(365px);
+    grid-template-rows: fit-content(46px) fit-content(340px) fit-content(48px);
+    column-gap: 36px;
+  }
+
+  .presentation__card-title {
+    font-size: 62px;
+    line-height: 66px;
+  }
+
+  .presentation__card-image {
+    max-width: 420px;
+    max-height: 420px;
+  }
+}
+
+@media screen and (max-width: 938px) {
+  .presentation__cards {
+    padding: 92px 30px 0;
+  }
+
+  .presentation__card {
+    grid-template-columns: fit-content(380px) fit-content(365px);
+    grid-template-rows: fit-content(46px) fit-content(340px) fit-content(48px);
+    column-gap: 32px;
+  }
+
+  .presentation__card-title {
+    font-size: 52px;
+    line-height: 56px;
+  }
+
+  .presentation__card-image {
+    max-width: 380px;
+    max-height: 380px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presentation__cards {
+    padding: 92px 11px 0 24px;
+  }
+
+  .presentation__card {
+    grid-template-columns: fit-content(340px) fit-content(365px);
+    grid-template-rows: fit-content(46px) fit-content(340px) fit-content(48px);
+    row-gap: 46px;
+    column-gap: 28px;
+    margin: 72px 0 0;
+  }
+
+  .presentation__card-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .presentation__card-profession {
+    line-height: 14.52px;
+  }
+
+  .presentation__card-image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .presentation__card-text {
+    font-size: 1rem;
+    line-height: 26.08px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .presentation__cards {
+    padding: 77px 0 0;
+  }
+
+  .presentation__card {
+    grid-template-columns: fit-content(460px);
+    grid-template-areas:
+      "title"
+      "name"
+      "image"
+      "text"
+      "button";
+    row-gap: 30px;
+    column-gap: 0;
+  }
+
+  .presentation__card-title {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 460px;
+  }
+
+  .presentation__card-description {
+    max-width: 460px;
+  }
+
+  .presentation__card-image {
+    max-width: 460px;
+    max-height: 460px;
+  }
+  .presentation__card-text {
+    max-width: 460px;
+  }
+
+  .presentation__card-button {
+    max-width: 288px;
+    max-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .presentation__cards {
+    padding: 62px 0 0;
+  }
+
+  .presentation__card {
+    row-gap: 30px;
+    margin: 50px 0 0;
+  }
+
+  .presentation__card-title {
+    font-size: 37px;
+    line-height: 40px;
+    margin: 0 16px;
+  }
+
+  .presentation__card-description {
+    margin: 0 16px;
+  }
+
+  .presentation__card-text {
+    margin: 0 16px;
+  }
+
+  .presentation__card-button {
+    font-size: 14px;
+    line-height: 16.94px;
+    max-height: 48px;
+    text-align: center;
+    padding: 16px 49px 15px 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .presentation__cards {
+    padding: 62px 0 0;
+  }
+
+  .presentation__card-title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+  }
+
+  .presentation__card-description {
+    max-width: 288px;
+  }
+
+  .presentation__card-text {
+    max-width: 288px;
+  }
+
+  .presentation__card-button {
+    max-width: 288px;
+    margin: 0 16px;
+  }
 }
