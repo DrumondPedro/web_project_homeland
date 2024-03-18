@@ -56,6 +56,7 @@
   color: #fff;
   background-color: #0278fe;
   border: 0;
+  text-decoration: none;
 }
 
 .invite__button:hover {

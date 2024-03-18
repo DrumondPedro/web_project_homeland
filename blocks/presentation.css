@@ -37,7 +37,7 @@
   grid-area: title;
 }
 
-.presentation__card-description {
+.presentation__card-people-description {
   font-size: 18px;
   line-height: 22px;
   grid-area: name;
