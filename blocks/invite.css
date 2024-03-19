@@ -46,17 +46,8 @@
 
 .invite__button {
   margin: 32px 0 0;
-  padding: 13px 20px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #fff;
-  background-color: #0278fe;
-  border: 0;
-  text-decoration: none;
 }
 
 .invite__button:hover {

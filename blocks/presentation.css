@@ -85,17 +85,8 @@
 }
 
 .presentation__card-button {
-  font-family: "Inter", Arial, sans-serif;
-  padding: 13px 20px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  text-decoration: none;
-  border: none;
-  color: #fff;
-  background-color: #0278fe;
   font-size: 18px;
   line-height: 22px;
-  font-weight: 600;
   grid-area: button;
   max-width: 285px;
   max-height: 48px;
